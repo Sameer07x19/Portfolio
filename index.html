@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bai Jamuree Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <nav>
+      <div id="logo">
+        <h1>PORTFOLIO</h1>
+      </div>
+      <div id="navbar">
+        <ul>
+          <li>
+            <a href="#"><span id="home">Home</span></a>
+          </li>
+          <li><a href="#page2">About</a></li>
+          <li><a href="#page3">Skills</a></li>
+          <li><a href="#page4">My Work</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="page1">
+      <div id="text">
+        <div>
+          <h1>Hey,</h1>
+          <h1>I'm <span id="name">Sameer</span></h1>
+          <p>Web Developer</p>
+        </div>
+      </div>
+      <div id="main-image">
+        <img src="./assets/profile-img.jpg" height="350px" alt="" />
+      </div>
+    </div>
+
+    <div id="page2">
+      <div id="heading">
+      <h1>ABOUT ME</h1>
+      </div>
+      <div id="about">
+        <div id="info">
+          <div class="abc">
+            <h2>I am A FrontEnd Web Developer</h2>
+          <p>I specialize in creating dynamic, interactive user interfaces using HTML5, CSS3, and JavaScript. I am proficient in frameworks and libraries such as Bootstrap for responsive design, GSAP for animations, and Scroll Trigger to enhance user experience. My projects focus on building visually appealing, user-friendly websites that are compatible across various devices.</p>
+          </div>
+        </div>
+        <div id="r-img">
+          <img src="./assets/wolf-img.jpg" alt="">
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="page3">
+      <div id="heading2">
+        <h1>SKILLS</h1>
+      </div>
+      
+      <div id="cont">
+        <div class="lft">
+          <div class="abc">
+            <div class="skill">
+              <h3>Frontent Design</h3>
+              <p>I specialize in creating pixel-perfect designs and clean code.</p>
+            </div>
+            <div class="skill">
+              <h3>Responsive Web Design</h3>
+              <p>Designing responsive designs for seamless user experiences across all devices</p>
+            </div>
+          </div>
+        </div>
+        <div class="rgt">
+          <div class="abc">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>GSAP Animation</li>
+              <li>ScrollTrigger</li>
+              </ul>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <div id="page4">
+      <div id="heading3">
+        <h1>My Work</h1>
+      </div>
+      
+      <div id="cont1">
+        <div class="lft2">
+          <div class="abc">
+            <h2>Sidcup Golf Web</h2>
+            <p>This is a UI of a website named "Sidcup Family Golf" which I cloned. This website some interactive features which i added using HTML5, CSS3, JavaScript, Scroll Trigger and GSAP Library. This website is also responsive for Mobile Devices.</p>
+          </div>
+        </div>
+        <div class="rgt2">
+          <a href="https://sidcup-golf-web.netlify.app/"><img id="project-bg" src="./assets/image.png" height="400px" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h2>Connect With Me</h2>
+      <div class="social-links">
+        <div class="cont3">
+          <a href="https://www.instagram.com/sameer07x19/"><img src="./assets/instagram-line.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/sameer07x19/"><img src="./assets/linkedin-box-fill.png" alt=""></a>
+          <a href="https://x.com/sameer07x19"><img src="./assets/twitter-x-line.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024. Designed by Sameer. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
