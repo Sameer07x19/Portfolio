@@ -24,7 +24,8 @@ nav {
   padding: 0 50px;
 }
 #logo {
-  border: 3px solid #c738bd;
+/*   border: 3px solid #c738bd; */
+  border: 3px solid #95c11e;
   border-radius: 20px;
   font-size: 15px;
   padding: 5px 15px;
