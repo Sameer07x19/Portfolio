@@ -15,7 +15,7 @@ html {
 }
 /* navbar */
 nav {
-  height: 10%;
+  height: 10vh;
   width: 100%;
   background-color: #120f0c;
   display: flex;
@@ -52,7 +52,7 @@ nav {
 /* default */
 .page {
   background-color: #000;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 .heading {
@@ -82,7 +82,7 @@ nav {
 }
 /* page1 */
 #page1 {
-  height: 90%;
+  height: 90vh;
 }
 #page1 .container {
   height: 100%;
