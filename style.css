@@ -770,9 +770,9 @@ footer p span {
     font-size: 16px;
     padding: 0;
   }
-  .cursor{
+/*   .cursor{
     display: none;
-  }
+  } */
   .container {
     height: 100%;
     display: grid;
@@ -966,9 +966,9 @@ footer p span {
     font-size: 16px;
     padding: 0;
   }
-  .cursor{
+/*   .cursor{
     display: none;
-  }
+  } */
   .container {
     height: 100%;
     display: grid;
