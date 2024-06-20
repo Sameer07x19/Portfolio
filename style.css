@@ -20,10 +20,10 @@ html {
 }
 .cursor{
   position: fixed;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
-    background: #EDBFFF;
+    background: #fff;
     mix-blend-mode: difference;
     z-index: 8;
 }
