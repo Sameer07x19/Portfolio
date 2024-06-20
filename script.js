@@ -64,7 +64,7 @@ var tl3 = gsap.timeline({
     backgroundColor:"#080d13"
   })
 
-document.getElementById("myVideo").playbackRate = 0.5;
+document.getElementById("myVideo").playbackRate = 0.8;
 
 var cursor = document.querySelector(".cursor");
 var main = document.querySelector(".main")
