@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Bai Jamjuree", sans-serif;
   color: #fff;
-/*   background-color: #000; */
+  background-color: #000;
 }
 html,
 body {
@@ -47,16 +47,17 @@ nav {
   padding: 0 50px;
 }
 #logo { 
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9a5858;
   font-style: normal;
-  background: var(
+  /* background: var(
     --Title-Gradient,
     linear-gradient(90deg, #64d8c1 -1.88%, #e93636 104.56%)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  ); */
+  /* background-clip: text; */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
 }
 #resume {
   margin-right: 15px;
@@ -148,7 +149,7 @@ nav {
   line-height: 110%;
   background: var(
     --Title-Gradient,
-    linear-gradient(90deg, #e25353 -1.88%, #7275ce 104.56%)
+    linear-gradient(90deg, #ea3131 -1.88%, #9fa1f7 104.56%)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -233,7 +234,7 @@ nav {
 /* page2 */
 /* left */
 .l2 h2 {
-  box-shadow: 0 0 15px 5px rgba(114, 181, 226, 0.815);
+  box-shadow: 0 0 6px 5px rgba(114, 181, 226, 0.815);
   font-size: 30px;
   font-weight: 600;
   padding: 10px 20px;
@@ -246,7 +247,7 @@ nav {
   line-height: 110%;
   background: var(
     --Title-Gradient,
-    linear-gradient(90deg, #e6ebea -1.88%, #6d64d3 104.56%)
+    linear-gradient(90deg, #e50707 -2.88%, #d5d4e0 104.56%)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -256,15 +257,11 @@ nav {
   background-color: blueviolet;
   border: none;
   color: antiquewhite;
-  box-shadow: 0 0 50px 16px rgba(0, 142, 236, 0.815);
+  box-shadow: 0 0 10px 6px rgba(0, 142, 236, 0.815);
   transition: all ease-in-out 0.4s;
   font-style: normal;
   font-weight: 700;
   line-height: 110%;
-  background: var(
-    --Title-Gradient,
-    linear-gradient(90deg, #e6ebea -1.88%, #6d64d3 104.56%)
-  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
