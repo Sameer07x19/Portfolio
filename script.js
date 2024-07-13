@@ -50,19 +50,19 @@ window.addEventListener("load", () => {
   
 });
 
-var tl3 = gsap.timeline({
-    scrollTrigger: {
-        trigger: "#page4",
-        scroller: ".main",
-        // markers:true,
-        start: "top 80%",
-        end: "top 20%",
-        scrub: 3
-    }
-  })
-  tl3.to(".main",{
-    backgroundColor:"#080d13"
-  })
+// var tl3 = gsap.timeline({
+//     scrollTrigger: {
+//         trigger: "#page4",
+//         scroller: ".main",
+//         // markers:true,
+//         start: "top 80%",
+//         end: "top 20%",
+//         scrub: 3
+//     }
+//   })
+//   tl3.to(".main",{
+//     backgroundColor:"#080d13"
+//   })
 
 document.getElementById("myVideo").playbackRate = 0.8;
 

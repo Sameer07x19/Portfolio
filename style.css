@@ -40,7 +40,7 @@ video{
 nav {
   height: 10vh;
   width: 100%;
-  /* background-color: #120f0c; */
+  background-color: #120f0c;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,7 +132,7 @@ nav {
 
 /* default */
 .page {
-  /* background-color: #000; */
+  background-color: #000;
   height: 100vh;
   width: 100%;
 }
@@ -412,7 +412,7 @@ nav {
 }
 /* page4 */
 #page4 {
-  /* background-color: #000; */
+  background-color: #000;
   min-height: 100vh;
   width: 100%;
   position: relative;
@@ -512,7 +512,7 @@ nav {
   width: 100%;
   background-color: #000;
   padding: 10px 80px;
-  background-color: #080d13;
+  /* background-color: #080d13; */
 }
 #contact h2 {
   font-size: 35px;
@@ -538,7 +538,7 @@ footer {
   background-color: #000;
   color: #fff;
   padding-bottom: 20px;
-  background-color: #080d13;
+  /* background-color: #080d13; */
   /* background: url(./assets/video-bg.mp4); */
 }
 footer p span {
