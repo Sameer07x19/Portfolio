@@ -253,7 +253,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.l2 h2:hover {
+/* .l2 h2:hover {
   background-color: blueviolet;
   border: none;
   color: antiquewhite;
@@ -265,7 +265,7 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 .l2 p {
   margin-top: 80px;
   font-size: 24px;
