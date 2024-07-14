@@ -1,23 +1,13 @@
 # Portfolio
 
-Welcome to my Portfolio project! This repository contains my personal portfolio website built using HTML, CSS, JavaScript, GSAP, and Locomotive Scroll.
+Welcome to my Portfolio ! This repository contains my personal portfolio website built using HTML, CSS, JavaScript, GSAP, and Locomotive Scroll.  
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-
-## Introduction
-This project is a personal portfolio website showcasing my skills, projects, and experiences. It is designed to provide a smooth and engaging user experience with animations and smooth scrolling effects.
-
-## Features
+## Some Highlights
 - Responsive design that works on mobile, tablet, and desktop screens
 - Smooth scrolling using Locomotive Scroll
 - Interactive animations powered by GSAP
 - Clean and modern user interface
+- You can find my resume at top right too.
 
 ## Technologies Used
 - HTML
@@ -45,8 +35,8 @@ To get a local copy up and running, follow these steps:
 Open the `index.html` file in your web browser to view the portfolio. Explore the different sections to learn more about my skills, projects, and experiences.
 
 ## Contributing
-Contributions are welcome! If you have any improvements or suggestions, please feel free to submit a pull request or open an issue.
-
+Contributions are welcome! If you have any improvements or suggestions, please feel free to submit a pull request or open an issue, it will be really helpful to me.
+Here's what you can do :
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/YourFeature`)
 3. Commit your Changes (`git commit -m 'Add some YourFeature'`)
