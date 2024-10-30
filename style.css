@@ -40,11 +40,13 @@ video{
 nav {
   height: 10vh;
   width: 100%;
-  background-color: #120f0c;
+  background-color: #0c0a0a;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+  border-bottom: 4px groove #f30781;
+  box-shadow: 0 0 10px rgba(243, 7, 129, 0.8), 0 0 20px rgba(243, 7, 129, 0.5);
 }
 #logo { 
   font-size: 18px;
@@ -142,19 +144,16 @@ nav {
   width: 100%;
 }
 .heading h1 {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: 110%;
-  background: var(
-    --Title-Gradient,
-    linear-gradient(90deg, #ea3131 -1.88%, #9fa1f7 104.56%)
-  );
+  background: linear-gradient(90deg, #1E90FF 0%, #00BFFF 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .container {
   height: 90%;
   width: 100%;
@@ -193,16 +192,12 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: 110%;
-  background: var(
-    --Title-Gradient,
-    linear-gradient(90deg, #e6d1bc -1.88%, #eb7f13 104.56%)
-  );
+  background: linear-gradient(90deg, #D5006D 0%, #FF4081 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #FFAF61;
-
 }
+
 .l1 p {
   display: inline-block;
   font-size: 22px;
@@ -233,52 +228,35 @@ nav {
 }
 /* page2 */
 /* left */
-.l2 h2 {
-  box-shadow: 0 0 6px 5px rgba(74, 210, 180, 0.815);
-  font-size: 30px;
-  padding: 10px 20px;
-  padding-left: 30px;
-  border-radius: 12px;
-  width: 80%;
-  transition: all ease-in-out 0.4s;
-  font-weight: 800;
-  line-height: 110%;
-  background: var(
-    --Title-Gradient,
-    linear-gradient(90deg, #e50707 -2.88%, #d5d4e0 104.56%)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#page2{
+  margin-bottom: 20vh;
 }
-/* .l2 h2:hover {
-  background-color: blueviolet;
-  border: none;
-  color: antiquewhite;
-  box-shadow: 0 0 10px 6px rgba(0, 142, 236, 0.815);
-  transition: all ease-in-out 0.4s;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 110%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+.l2 h2 {
+  font-size: 32px;
+  padding: 15px 0;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #b0bfc6;
+}
+
 .l2 p {
-  margin-top: 80px;
+  margin-top: 40px;
   font-size: 24px;
   width: 88%;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
-  background: var(
-    --Title-Gradient,
-    linear-gradient(90deg, #2bfcd3 -1.88%, #3D6AFF 104.56%)
-  );
+  background: linear-gradient(90deg, #00B4D8 0%, #90E0EF 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
 .l2 .text {
   padding: 0;
 }
