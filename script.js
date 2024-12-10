@@ -73,3 +73,4 @@ document.addEventListener("mousemove",(dets)=>{
   cursor.style.left = dets.x + 2 + "px";
   cursor.style.top = dets.y + 2 + "px";
 })
+

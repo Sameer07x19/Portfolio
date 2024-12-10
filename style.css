@@ -149,6 +149,7 @@ nav {
   font-style: normal;
   line-height: 110%;
   background: linear-gradient(90deg, #1E90FF 0%, #00BFFF 100%);
+  background: linear-gradient(90deg, #D5006D 0%, #FF4081 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -229,10 +230,14 @@ nav {
 /* page2 */
 /* left */
 #page2{
+  height: 90vh;
   margin-bottom: 20vh;
 }
+.l2{
+  margin-left: 100px;
+}
 .l2 h2 {
-  font-size: 32px;
+  font-size: 36px;
   padding: 15px 0;
   width: 100%;
   margin: 0 auto;
