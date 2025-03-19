@@ -234,7 +234,7 @@ nav {
   margin-bottom: 20vh;
 }
 .l2{
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 .l2 h2 {
   font-size: 36px;
@@ -815,7 +815,7 @@ footer p span {
   }
   .l2 h2 {
     /* box-shadow: 0 0 5px 5px rgba(0, 142, 236, 0.815); */
-    font-size: 23px;
+    font-size: 33px;
     padding: 20px 5px;
     width: 100%;
     text-align: center;
